@@ -445,7 +445,7 @@ async def submit_exercise(ctx):
 
     next_ex_id, next_ex = get_next_exercise(progress)
     if next_ex_id:
-        await send_exercise(ctx.channel, next_ex)
+        await send_exercise(ctx.channel, next_ex_id, next_ex)
     else:
         await ctx.send("🏆 Parabéns! Você concluiu todo o curso!")
 

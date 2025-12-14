@@ -23,10 +23,7 @@
     "arquivo": "ex00.py",
     "dificuldade": "Básico",
     "validation": {
-      "type": "ast",
-      "must_use": [
-        "if"
-      ]
+      "type": "ast"
     }
   },
   "ex01": {
